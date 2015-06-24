@@ -1,0 +1,19 @@
+{
+  "name": "fron-end-ui-testing",
+  "version": "0.1.0",
+  "description": "best practices for UI testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "deploy": "surge --domain test-example.surge.sh --project ./app",
+    "start": "harp server ./app"
+  },
+  "author": "Brock Whitten <brock@chloi.io>",
+  "license": "ISC",
+  "devDependencies": {
+    "harp": "0.17.0",
+    "mocha": "^2.2.5",
+    "nightmare": "^1.8.2",
+    "should": "^7.0.1"
+  }
+}
