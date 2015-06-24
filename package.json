@@ -5,15 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "deploy": "surge --domain test-example.surge.sh --project ./app",
+    "deploy": "surge --project ./app",
     "start": "harp server ./app"
   },
   "author": "Brock Whitten <brock@chloi.io>",
   "license": "ISC",
   "devDependencies": {
-    "harp": "0.17.0",
     "mocha": "^2.2.5",
+    "should": "^7.0.1",
     "nightmare": "^1.8.2",
-    "should": "^7.0.1"
+    "harp": "^0.17.0",
+    "surge": "^0.14.2"
   }
 }
